@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000'; // Change this if your backend URL is different
+const baseUrl = 'https://twitter-api-clone-demo.vercel.app/'; // Change this if your backend URL is different
 
 document.getElementById('register-button').addEventListener('click', async () => {
     const username = document.getElementById('register-username').value;
